@@ -1,5 +1,5 @@
 body {
-    background: #76ABAE;
+    background: #f9efdb;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +16,7 @@ a {
     border: 1px solid;
     margin: 0;
     padding: 0;
-    background: #222831;
+    background: #638889;
     border-bottom: 1px solid white;
     position: fixed;
     top: 0;
@@ -51,7 +51,7 @@ a {
 
 .nav-item ul li:hover {
     background: #76ABAE;
-    color: #222831;
+    color: black;
 }
 
 /* header */
@@ -73,7 +73,7 @@ a {
 
 .header ul a {
     color: #EEEEEE;
-    background: #222831;
+    background: #638889;
     text-decoration: none;
     font-size: 15px;
     border: 1px solid;
@@ -87,7 +87,7 @@ a {
 
 .header ul a:hover {
     background: #76ABAE;
-    color: #222831;
+    color: black;
     height: 26px;
     text-decoration: underline;
 }
@@ -99,7 +99,7 @@ a {
 }
 
 .category {
-    background: #EEEEEE;
+    background: #ebd9b4;
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border-radius: 10px;
@@ -126,6 +126,7 @@ a {
 .card {
     border: 1px solid;
     border-radius: 15px;
+    background: #EEEEEE;
     width: 15rem;
     margin: 10px;
 }
