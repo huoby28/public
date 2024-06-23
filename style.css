@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-navbar {
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+    border: 1px solid black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    background: brown;
+    overflow: hidden;
+}
+
+.r-logo img {
+    width: 140px;
+}
+
+.r-navbar i {
+    color: white;
+    font-size: 25px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.social img {
+    width: 25px;
+}
+
+.web-info {
+    width: 95%;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 50px;
+    background: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.web-info .r-w-i{
+    text-decoration: none;
+    color: black;
+}
+
+.web-info .link{
+    color: rgb(58, 58, 58);
+}
+
+.r-card {
+    width: 95%;
+    margin: 5px;
+    border: 1px solid;
+    min-height: 140px;
+    border-radius: 15px;
+    display: flex;
+}
+.r-card img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.info-title{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.r-info{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.r-more{
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.r-more button{
+    margin-right: 20px;
+}
+
+.r-footer{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    border: 1px solid;
+    border-radius: 20px 20px 0 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-detail{
+    overflow: auto;
+    max-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pesan{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.info-action{
+    display: flex;
+    margin-right: 10px;
+}
+.info-action button{
+    margin: 1px;
+}
+
+.group-info{
+    width: 95%;
+}
+
+.rcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    margin-top: 75px;
+}
+.rcontainer::-webkit-scrollbar {
+    width: 1px; /* Lebar scrollbar */
+}
