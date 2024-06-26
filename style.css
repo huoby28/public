@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #F5E7B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 165px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.r-navbar {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #973131;
+}
+
+.r-nav-logo {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.r-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.r-nav-menu button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.offcanvas-body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-body a {
+    text-decoration: none;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    transition: all 0.5s ease;
+}
+
+.offcanvas-body a:hover {
+    margin-right: 10px;
+    color: #973131;
+}
+
+.alert {
+    margin-top: 70px;
+    width: 98%;
+    text-align: center;
+}
+
+.r-container {
+    width: 100%;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 15px;
+}
+
+.menu-category {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-title {
+    font-size: 22px;
+}
+
+.cat-info {
+    font-size: 12px;
+    display: flex;
+    align-items: end;
+}
+
+.r-card {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.r-card:last-child {
+    margin-bottom: 80px;
+}
+
+.image-menu {
+    overflow: hidden;
+    width: 100;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.image-menu img {
+    height: 100%;
+}
+
+.info-menu {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-title {
+    font-size: 20px;
+}
+
+.deskripsi-menu {
+    font-size: 12px;
+}
+
+.price-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-success {
+    width: 130px;
+}
+
+.jumlah {
+    background: rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.r-footer {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    border: 1px solid;
+    border-radius: 20px 20px 0 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-detail {
+    overflow: auto;
+    max-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pesan {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
