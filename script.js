@@ -78,7 +78,16 @@ function updateTotalPrice() {
         let parts = item.innerText.split(' = ');
         total += parseInt(parts[1].replace('.', ''));
     });
+
     document.getElementById('total-price').innerText = `Rp ${total.toLocaleString('id-ID')}`;
+
+    // Toggle footer visibility
+    let footer = document.querySelector('.r-footer');
+    if (total === 0) {
+        footer.style.bottom = '-200px';
+    } else {
+        footer.style.bottom = '10px';
+    }
 }
 
 document.getElementById('pesan-btn').addEventListener('click', function () {
