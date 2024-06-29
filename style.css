@@ -110,6 +110,7 @@ body {
     align-items: center;
     border-bottom: 1px solid;
     background: white;
+    transition: all 0.5s ease;
 }
 
 .r-card,.menu-category{
